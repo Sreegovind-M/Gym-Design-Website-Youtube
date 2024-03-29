@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muscle Hut</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container-1">
+        <div class="nav-bar">
+          <img
+            src="./Images/menu.png"
+            alt="Not found"
+            class="menu-logo"
+            onclick="toggleMenu()"
+          />
+          <img src="./Images/Logo.png" alt="Not Found" class="logo" />
+          <h2 style="color: white"><b>BOXCHAMPY</b></h2>
+          <nav id="menu-list">
+            <ul>
+              <li>
+                <a href="#Home"><b>HOME</b></a>
+              </li>
+              <li>
+                <a href="#Shop"><b>SHOP</b></a>
+              </li>
+              <li>
+                <a href="#About"><b>ABOUT</b></a>
+              </li>
+              <li>
+                <a href="#Locations"><b>LOCATIONS</b></a>
+              </li>
+              <li>
+                <a href="#Contact"><b>CONTACT</b></a>
+              </li>
+              <li>
+                <button><b>SIGN UP</b></button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="top-heading">
+          <br /><br /><br />
+          <h1><b>FIGHT LIKE</b></h1>
+          <h1>
+            <b>A <span style="color: #e83538">CHAMPION</span></b>
+          </h1>
+        </div>
+
+        <div class="top-feature-container">
+          <div class="feature-box">
+            <img src="./Images/cross.png" alt="" />
+            <h3><b>CROSSFIT</b></h3>
+          </div>
+          <div class="feature-box">
+            <img src="./Images/weight.png" alt="" />
+            <h3><b>WEIGHT</b></h3>
+          </div>
+          <div class="feature-box">
+            <img src="./Images/exercise.png" alt="" />
+            <h3><b>EXERCISE</b></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="business-container">
+        <div class="business-img-box">
+          <img src="./Images/Girl fight.jpg" alt="Not Found" />
+        </div>
+        <div class="business-descrip-box">
+          <h1><b>HOW WE GOT STARTED INTO THIS BUSINESS</b></h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris a
+            diam maecenas sed enim ut sem. Leo a diam sollicitudin tempor id eu.
+            Aliquam eleifend mi in nulla posuere sollicitudin. Eros in cursus
+            turpis massa tincidunt dui ut ornare. Gravida arcu ac tortor
+            dignissim convallis. Id nibh tortor id aliquet. Dictumst vestibulum
+            rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt.
+            Feugiat vivamus at augue eget arcu dictum varius duis. Nullam ac
+            tortor vitae purus faucibus ornare suspendisse sed. Luctus accumsan
+            tortor posuere ac ut consequat.
+          </p>
+          <button><b>SIGN UP</b></button>
+        </div>
+      </div>
+    </div>
+
+    <section class="footer">
+      <div class="container-3">
+        <div class="foot-left-content">
+          <span>
+            <h1 style="color: white"><b>READY FOR YOUR</b></h1>
+            <h1 style="color: white">
+              <b><span style="color: #e83538">NEXT </span>LESSON</b>
+            </h1>
+          </span>
+          <span>
+            <img src="./Images/face.png" alt="" />
+            <img src="./Images/insta.png" alt="" />
+            <img src="./Images/linked.png" alt="" />
+          </span>
+        </div>
+        <div class="foot-right-content">
+          <span style="display: flex; align-items: center">
+            <img
+              src="./Images/mail.png"
+              alt="Not Found"
+              style="margin-right: 10px; cursor: pointer"
+            />
+            <p>info@boxchampy.com</p>
+          </span>
+          <span
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <p style="margin-right: 40px">Privacy Policy</p>
+            <p>Terms & Conditions</p>
+          </span>
+        </div>
+      </div>
+    </section>
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("menu-list");
+
+        if (menu.style.display == "none") {
+          menu.style.display = "flex";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container-1 {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.container-2 {
+  width: 100%;
+  height: fit-content;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.container-3 {
+  width: 100%;
+  height: fit-content;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background-image: url(./Images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  font-size: 6rem;
+}
+
+.menu-logo {
+  display: none;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+  transition: scale 0.4s;
+}
+
+nav ul li:hover {
+  scale: 1.3;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #e8e8e8;
+}
+
+nav ul li button {
+  background-color: #e83538;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border: none;
+}
+
+.top-heading {
+  color: white;
+
+  width: fit-content;
+  height: fit-content;
+}
+
+.top-feature-container {
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  padding: 50px 0;
+  transform: translate(70%, 70%);
+  box-shadow: 0px 80px 60rem -50px #e83538;
+}
+
+.feature-box {
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  margin: 0 50px;
+  color: #e83538;
+  transition: scale 0.4s;
+}
+
+.feature-box:hover {
+  scale: 1.3;
+}
+
+.business-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(15%);
+}
+
+.business-img-box {
+  width: 50%;
+}
+
+.business-img-box img {
+  width: 100%;
+  height: auto;
+}
+
+.business-descrip-box {
+  width: 45%;
+  text-align: left;
+  position: relative;
+}
+
+.business-descrip-box h1 {
+  position: relative;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.business-descrip-box p {
+  margin-bottom: 20px;
+  color: #434444;
+}
+
+.business-descrip-box button {
+  background-color: #e83538;
+  color: white;
+  cursor: pointer;
+  padding: 15px 20px;
+  border: none;
+  margin-top: 10px;
+}
+
+.business-descrip-box::before {
+  content: "";
+  width: 10px;
+  height: 25%;
+  background: #e83538;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+.footer {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  transform: translateY(70%);
+}
+
+.foot-left-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(90%);
+}
+
+.foot-left-content img {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.foot-right-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(400%);
+}
+
+.foot-right-content p {
+  color: white;
+  cursor: pointer;
+}
+
+.close-logo {
+  display: none;
+}
+
